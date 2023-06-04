@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+
+body {
+    font-family: var(--font-family);
+}
+
+h2,h3{
+    color: rgb(105, 105, 105);
+}
+
+p,li{
+    color: rgb(114, 114, 114);
+}
+
+img{
+    width: 10%;
+    height: 10%;
+}
+
+.historieta{
+    width: 50%;
+    height: 50%;
+    margin-top: 2em;
+}
